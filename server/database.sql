@@ -1,0 +1,11 @@
+CREATE DATABASE pernapp;
+
+CREATE TABLE records(
+    id SERIAL PRIMARY KEY,
+    field1 VARCHAR(255),
+    field2 VARCHAR(255),
+    field3 VARCHAR(255),
+    field4 VARCHAR(255),
+    field5 VARCHAR(255),
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
